@@ -13,23 +13,28 @@ struct OpeningScreen: View {
             BackgroundDegrade()
             HStack {
                 VStack(alignment: .leading) {
+                    Spacer()
                     Text("Anonym")
-                        .font(.largeTitle).bold()
+                        .font(.title2).bold()
                         .foregroundColor(.white)
                     Text("AudioDairy")
+                        .font(.system(size:55))
                         .font(.largeTitle).bold()
                         .foregroundColor(.white)
                     
                     ZStack {
                         Rectangle()
-                            .frame(width: 120, height: 25)
-                            .offset(y: 20)
+                            .frame(width: 160, height: 20)
+                            .offset(y: 15)
                             .foregroundColor(Color("GradientColor1"))
                         
                         Text("Of Me")
-                            .font(.largeTitle).bold()
-                        .foregroundColor(.white)
+                            .font(.system(size:55))
+                            .bold()
+                            .foregroundColor(.white)
                     }
+                    .offset(y: -35)
+                    Spacer()
                 }
                 Spacer()
             }
