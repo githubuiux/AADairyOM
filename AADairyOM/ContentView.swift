@@ -9,12 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        OpeningScreen()
+//        OpeningScreen()
+        MainPage()
+
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+//        ContentView()
+        NavigationView {
+            MainPage()
+        }
     }
 }

@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BA61DA129EE8BAA006FC47C /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA61DA029EE8BAA006FC47C /* RotationAnimation.swift */; };
 		2BBD4EC429EDB90500419E9E /* AADairyOMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4EC329EDB90500419E9E /* AADairyOMApp.swift */; };
 		2BBD4EC629EDB90500419E9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4EC529EDB90500419E9E /* ContentView.swift */; };
 		2BBD4EC829EDB90600419E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD4EC729EDB90600419E9E /* Assets.xcassets */; };
 		2BBD4ECB29EDB90600419E9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD4ECA29EDB90600419E9E /* Preview Assets.xcassets */; };
 		2BBD4ED229EDBCCE00419E9E /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4ED129EDBCCE00419E9E /* OpeningScreen.swift */; };
 		2BBD4ED429EDBD6F00419E9E /* BackgroundDegrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4ED329EDBD6F00419E9E /* BackgroundDegrade.swift */; };
+		2BBD4ED729EDC6A900419E9E /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4ED629EDC6A900419E9E /* MainPage.swift */; };
+		2BBD4ED929EDCE8100419E9E /* BackGroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4ED829EDCE8100419E9E /* BackGroundColor.swift */; };
+		2BBD4EDB29EDD07500419E9E /* RecordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4EDA29EDD07500419E9E /* RecordScreen.swift */; };
+		2BBD4EDE29EDD1CD00419E9E /* MainPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4EDD29EDD1CD00419E9E /* MainPageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BA61DA029EE8BAA006FC47C /* RotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
 		2BBD4EC029EDB90500419E9E /* AADairyOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AADairyOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBD4EC329EDB90500419E9E /* AADairyOMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADairyOMApp.swift; sourceTree = "<group>"; };
 		2BBD4EC529EDB90500419E9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +29,10 @@
 		2BBD4ECA29EDB90600419E9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BBD4ED129EDBCCE00419E9E /* OpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScreen.swift; sourceTree = "<group>"; };
 		2BBD4ED329EDBD6F00419E9E /* BackgroundDegrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundDegrade.swift; sourceTree = "<group>"; };
+		2BBD4ED629EDC6A900419E9E /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		2BBD4ED829EDCE8100419E9E /* BackGroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundColor.swift; sourceTree = "<group>"; };
+		2BBD4EDA29EDD07500419E9E /* RecordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordScreen.swift; sourceTree = "<group>"; };
+		2BBD4EDD29EDD1CD00419E9E /* MainPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 		2BBD4EC229EDB90500419E9E /* AADairyOM */ = {
 			isa = PBXGroup;
 			children = (
+				2BBD4EDC29EDD1A000419E9E /* Models */,
 				2BBD4ED529EDC21500419E9E /* Core */,
 				2BBD4EC329EDB90500419E9E /* AADairyOMApp.swift */,
 				2BBD4EC529EDB90500419E9E /* ContentView.swift */,
@@ -77,8 +88,20 @@
 			children = (
 				2BBD4ED129EDBCCE00419E9E /* OpeningScreen.swift */,
 				2BBD4ED329EDBD6F00419E9E /* BackgroundDegrade.swift */,
+				2BBD4ED829EDCE8100419E9E /* BackGroundColor.swift */,
+				2BBD4ED629EDC6A900419E9E /* MainPage.swift */,
+				2BBD4EDA29EDD07500419E9E /* RecordScreen.swift */,
+				2BA61DA029EE8BAA006FC47C /* RotationAnimation.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		2BBD4EDC29EDD1A000419E9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BBD4EDD29EDD1CD00419E9E /* MainPageModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBD4ED729EDC6A900419E9E /* MainPage.swift in Sources */,
+				2BBD4EDE29EDD1CD00419E9E /* MainPageModel.swift in Sources */,
 				2BBD4EC629EDB90500419E9E /* ContentView.swift in Sources */,
 				2BBD4ED229EDBCCE00419E9E /* OpeningScreen.swift in Sources */,
+				2BBD4ED929EDCE8100419E9E /* BackGroundColor.swift in Sources */,
 				2BBD4ED429EDBD6F00419E9E /* BackgroundDegrade.swift in Sources */,
+				2BA61DA129EE8BAA006FC47C /* RotationAnimation.swift in Sources */,
 				2BBD4EC429EDB90500419E9E /* AADairyOMApp.swift in Sources */,
+				2BBD4EDB29EDD07500419E9E /* RecordScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
