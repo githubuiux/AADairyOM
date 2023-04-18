@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2BA61DA129EE8BAA006FC47C /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA61DA029EE8BAA006FC47C /* RotationAnimation.swift */; };
+		2BA61DA329EEA928006FC47C /* VoiceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA61DA229EEA928006FC47C /* VoiceAnimation.swift */; };
 		2BBD4EC429EDB90500419E9E /* AADairyOMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4EC329EDB90500419E9E /* AADairyOMApp.swift */; };
 		2BBD4EC629EDB90500419E9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD4EC529EDB90500419E9E /* ContentView.swift */; };
 		2BBD4EC829EDB90600419E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD4EC729EDB90600419E9E /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		2BA61DA029EE8BAA006FC47C /* RotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
+		2BA61DA229EEA928006FC47C /* VoiceAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAnimation.swift; sourceTree = "<group>"; };
 		2BBD4EC029EDB90500419E9E /* AADairyOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AADairyOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBD4EC329EDB90500419E9E /* AADairyOMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADairyOMApp.swift; sourceTree = "<group>"; };
 		2BBD4EC529EDB90500419E9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				2BBD4ED629EDC6A900419E9E /* MainPage.swift */,
 				2BBD4EDA29EDD07500419E9E /* RecordScreen.swift */,
 				2BA61DA029EE8BAA006FC47C /* RotationAnimation.swift */,
+				2BA61DA229EEA928006FC47C /* VoiceAnimation.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				2BA61DA129EE8BAA006FC47C /* RotationAnimation.swift in Sources */,
 				2BBD4EC429EDB90500419E9E /* AADairyOMApp.swift in Sources */,
 				2BBD4EDB29EDD07500419E9E /* RecordScreen.swift in Sources */,
+				2BA61DA329EEA928006FC47C /* VoiceAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

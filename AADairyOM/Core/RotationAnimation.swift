@@ -11,11 +11,12 @@ struct RotationAnimation: View {
     @State private var isRotating = 0.0
     var body: some View {
         Image(systemName: "gear")
+            .foregroundColor(Color("GradientColor2"))
             .font(.system(size: 72))
             .rotationEffect(.degrees(isRotating))
             .onAppear{
                 withAnimation(.linear(duration: 1)
-                    .speed(0.1).repeatForever(autoreverses: false)) {
+                    .speed(0.98).repeatForever(autoreverses: false)) {
                         isRotating = 360.0
                     }
             }
